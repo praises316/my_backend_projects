@@ -1,0 +1,71 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main Container */
+.container {
+    background: white;
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #007bff;
+    margin-bottom: 20px;
+}
+
+/* Heading */
+h1 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Paragraph */
+p {
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Input */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    border-color: #007bff;
+}
+
+/* Greeting Text */
+#gretting {
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+}
